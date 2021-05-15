@@ -40,12 +40,9 @@ $factory->define(Post::class, function (Faker $faker) {
         'sub_title' => $faker->sentence,
         'details' => $faker->paragraph,
         'post_type' => 'post',
-        'is_publised' => $isPublished[rand(0,1)],
+        'is_published' => $isPublished[rand(0,1)],
         'created_at' => now(),
         'updated_at' => now(),
-
-        'password' => bcrypt('123456'), // password
-        'remember_token' => Str::random(10),
     ];
 });
 
@@ -58,7 +55,5 @@ $factory->define(CategoryPost::class, function (Faker $faker) {
         'created_at' => now(),
         'updated_at' => now(),
 
-        'password' => bcrypt('123456'), // password
-        'remember_token' => Str::random(10),
     ];
 });

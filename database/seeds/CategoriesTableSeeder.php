@@ -22,15 +22,15 @@ class CategoriesTableSeeder extends Seeder
                 'updated_at' => Carbon :: now()
             ],
             [   'user_id'=>'1',
-                'name' => 'Laravel',
-                'slug' => 'laravel',
+                'name' => 'Maravel',
+                'slug' => 'maravel',
                 'is_published' =>'1',
                 'created_at' => Carbon :: now(),
                 'updated_at' => Carbon :: now()
             ],
             [   'user_id'=>'1',
-                'name' => 'Laravel',
-                'slug' => 'laravel',
+                'name' => 'Naravel',
+                'slug' => 'naravel',
                 'is_published' =>'1',
                 'created_at' => Carbon :: now(),
                 'updated_at' => Carbon :: now()
