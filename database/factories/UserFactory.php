@@ -47,8 +47,6 @@ $factory->define(Post::class, function (Faker $faker) {
 });
 
 $factory->define(CategoryPost::class, function (Faker $faker) {
-    $title = $faker -> unique()->sentence;
-    $isPublished = ['1','0'];
     return [
         'category_id' => rand(1, 5),
         'post_id' => rand(1, 100),
